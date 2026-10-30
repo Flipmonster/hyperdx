@@ -1,5 +1,18 @@
 # @hyperdx/api
 
+## 2.43.0
+
+### Minor Changes
+
+- 0212c7bd3: feat: Expose alert tags to Generic and incident.io webhook bodies as `{{tags}}` (comma-separated, or iterate with `{{#each tags}}`), and include them in the default incident.io body's `metadata.tags`, so one shared webhook can route alerts by owning team
+
+### Patch Changes
+
+- Updated dependencies [e88f71695]
+- Updated dependencies [e5ba5dfde]
+- Updated dependencies [0212c7bd3]
+  - @hyperdx/common-utils@0.33.0
+
 ## 2.42.0
 
 ### Minor Changes
